@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: Bjoren Luig
+@author: Björn Luig
 """
 
 import numpy as np
