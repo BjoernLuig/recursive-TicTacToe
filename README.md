@@ -79,4 +79,4 @@ Exemple:
     press enter to exit
 
 Don't worry, if it takes a few minutes to calculate the best first move.
-It's in one of the corners but every possible move has to be calculated before to get to this *obvious* solution by recursion.
+It's in one of the corners but every possible move has to be calculated to get to this *obvious* solution by recursion.
