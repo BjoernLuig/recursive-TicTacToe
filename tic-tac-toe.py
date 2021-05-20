@@ -47,7 +47,7 @@ def think(field,character): # choose best move with recursion (yes, this is very
             if field[i][j] not in ['X','O']: return(i,j,opposite)
 
 def show(): # show the field in the consol
-    print('\n---------\n'.join([' | '.join(field[i]) for i in range(3)]))
+    print('\n-------------\n'.join(['']+['| '+' | '.join(field[i])+' |' for i in range(3)]+['']))
     if   winner == player: print('you won!')
     elif winner == bot: print('you lost!')
     elif winner == 'draw': print('it\'s a draw!')
