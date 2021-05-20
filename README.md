@@ -3,6 +3,7 @@
 A simple unbeatable Tic Tac Toe game in python using recursion.
 
 Exemple:
+
     TIC TAC TOE
     choose your Character (X or O): X
     who is first? (X or O): X
